@@ -26,7 +26,7 @@ namespace алтер.classes
 
         public override string Print()
         {
-            return $"Самокат модель:{Model}, Цвет:{Color}, Категория прав:{Category}, Количество колес:{Numberofwheels}, Мотор:{Motor}, Скорость{Speed}";
+            return $"Самокаты модель:{Model}, Цвет:{Color}, Категория прав:{Category}, Количество колес:{Numberofwheels}, Мотор:{Motor}, Скорость{Speed}";
         }
         public Scooter(string speed, string color, string model)
         {
